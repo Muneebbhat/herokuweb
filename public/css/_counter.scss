@@ -1,0 +1,51 @@
+.section_two {
+  width: 100vw;
+  height: 100vh;
+  background: #ccc;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  nav {
+    width: 100%;
+    height: 80px;
+    background: #6262e4;
+    padding: 0 200px;
+    display: flex;
+    align-items: center;
+    h3 {
+      font-size: 25px;
+      color: #fff;
+    }
+  }
+  .counter_wrapper {
+    margin: 50px 0;
+    min-width: 500px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    h1 {
+      font-size: 50px;
+      margin-top: 50px;
+    }
+    .counter {
+      font-size: 90px;
+      margin: 50px 0;
+    }
+    .btn_wrapper {
+      .btn {
+        font-size: 20px;
+        padding: 0.3em 1.3em;
+        font-weight: 600;
+        letter-spacing: 1px;
+        margin-left: 10px;
+
+        border: 1px solid #333;
+        &:active {
+          background-color: #333;
+          color: #fff;
+        }
+      }
+    }
+  }
+}
